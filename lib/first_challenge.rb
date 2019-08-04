@@ -3,4 +3,6 @@
 
 describe "first_challenge"
   it "sets a variable, epic_tragedy, equal to a hash containing keys of family names and values of empty hashes"
-  expect
+    expect(first_challenge.keys).to eq([":montague =>, :capulet =>"])
+    expect(first_challenge.values).to eq([{},{}])
+    
