@@ -21,6 +21,8 @@ def bonus
   }
 
   #code your solution here:
+  # Access Romeo in hash, check "status" and change to "dead"
+  
 
   
 
