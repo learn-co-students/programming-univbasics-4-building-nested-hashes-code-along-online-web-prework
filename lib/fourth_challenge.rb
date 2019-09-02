@@ -11,9 +11,9 @@ def fourth_challenge
           :attitide => "worried"
         },
         {
-          :name => "Steven",
-          :age => "30",
-          :attitide => "confused"
+          :name => "Mercurio",
+          :age => "18",
+          :attitide => "hot-headed"
         }
       ]
    }, 
