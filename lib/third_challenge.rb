@@ -1,4 +1,4 @@
-def third_challenge
+def third_challenge do
   epic_tragedy = {
    :montague => {
       :patriarch => {

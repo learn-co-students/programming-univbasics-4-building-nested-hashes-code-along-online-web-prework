@@ -1,4 +1,4 @@
-def second_challenge
+def second_challenge do
   epic_tragedy = {
     :montague => {
       #your key/value pairs here!
