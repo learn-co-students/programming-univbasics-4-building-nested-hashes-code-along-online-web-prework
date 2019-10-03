@@ -20,10 +20,8 @@ def bonus
    }
   }
 
-  #code your solution here:
-
-  
-
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  epic_tragedy
-end
+  epic_tragedy[:Montague][:patriarch][:matriarch][:hero][:status] = "dead"
+  epic_tragedy[:Capulet][:matriarch][:heroine][:status] = "dead"
+  puts epic_tragedy
+  end
