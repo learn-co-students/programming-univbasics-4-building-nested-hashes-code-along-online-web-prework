@@ -1,3 +1,4 @@
-def first_challenge
-   epic_tragedy = {}
-end
+def epic_stragedy 
+  epic_stragedy = ({montague}, {capulet})
+end 
+  
