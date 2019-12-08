@@ -21,9 +21,17 @@ def bonus
   }
 
   #code your solution here:
-
+  epic_tragedy.each do |key, value|
+    value.each do |subkey, subvalue|
+      subvalue.each do |subsubkey, subsubvalue|
+        if subsubvalue == "alive"
+          epic_tragedy[key][subkey][subsubkey] = "dead"
+        end
+      end
+    end
+  end
   
-
+  return epic_tragedy
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
 end
