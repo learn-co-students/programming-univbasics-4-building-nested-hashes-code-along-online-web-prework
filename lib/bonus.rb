@@ -1,3 +1,5 @@
+# require 'pry'
+
 def bonus
   epic_tragedy = {
    :montague => {
@@ -9,6 +11,7 @@ def bonus
          {name: "Steven", age: "30", attitude: "confused"}
       ]
    }, 
+
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
       :matriarch => {name: "Lady Capulet", age: "51"},
@@ -21,6 +24,12 @@ def bonus
   }
 
   #code your solution here:
+
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
+
+
 
   
 
